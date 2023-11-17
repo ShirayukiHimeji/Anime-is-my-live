@@ -1,0 +1,67 @@
+*{
+    color: #580CF4;
+}
+
+body{
+    background-image: linear-gradient(90deg, #42E651, #38DA95, #20F3ED);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+input{
+    margin-top: 10px;
+    padding: 10px;
+}
+
+p{
+    text-align: right;
+}
+
+body .btn-login{    
+    background-color: #ffffff;
+    width: 500px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 11.1px;
+}
+
+body .btn-login h3{
+    text-align: center;
+}
+
+body .btn-login .bts-google{
+    padding: 5px 10px;
+    font-size: 12px;
+    background-color: #d4d1d1;
+    width: 100%;
+    border: none;
+    height: 40px;
+    color: #D83CC3;
+    font-weight: 700;
+    cursor: pointer;
+    position: relative;
+    border: none;
+    overflow: hidden;
+}
+
+button{
+    width: 100%;
+    height: 30px;
+    border: none;
+    background-color: #C87CDA;
+    color: #A4E59F;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 50px;
+}
+
+.logo{
+    width: 21px;
+    position: absolute;
+    top: 50%;
+    left: 170px;
+    transform: translateY(-50%);
+    height: auto;
+}
